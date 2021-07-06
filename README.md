@@ -1,5 +1,3 @@
-# 
-
 게임 장르 : RPG
 엔진 버전 : UnrealEngine 4.26
 
