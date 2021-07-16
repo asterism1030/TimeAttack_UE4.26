@@ -185,7 +185,7 @@ void AMob::HitAnyDamage(class UPrimitiveComponent* OverlappedComponent, class AA
 
 	FName enemy_name = OtherActor->GetFName();
 
-	if (damagingThings.Contains(enemy_name)) {
+	if (damagingThings.Contains(enemy_name)) { // 해당 공격을 이미 받은 대상은 제외
 		return;
 	}
 
