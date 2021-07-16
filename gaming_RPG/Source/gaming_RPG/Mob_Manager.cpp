@@ -82,6 +82,7 @@ void AMob_Manager::SpawnMob()
 
 void AMob_Manager::InactiveMob(AMob* mob)
 {
+	// 플레이어에 의해 처치시 비활성화
 	UE_LOG(LogTemp, Log, TEXT("AMob_Manager.cpp _ InactiveMob _ Called !"));
 
 	if (!mobs_UnActive.Contains(mob)) {
